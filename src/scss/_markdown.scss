@@ -10,7 +10,7 @@
     padding: 4px 0;
 }
 .CodeMirror pre {
-    padding: 0 4px;
+    padding: 0 80px;
 }
 .CodeMirror-gutter-filler,.CodeMirror-scrollbar-filler {
     background-color: $tan;
@@ -419,28 +419,21 @@ span.CodeMirror-selectedtext {
 .CodeMirror .CodeMirror-selected {
     background: $selection-color !important;
 }
-.CodeMirror .CodeMirror-code .cm-header-1 {
-    font-size: 200%;
-    line-height: 200%;
-}
-.CodeMirror .CodeMirror-code .cm-header-2 {
-    font-size: 160%;
-    line-height: 160%;
-}
-.CodeMirror .CodeMirror-code .cm-header-3 {
-    font-size: 125%;
-    line-height: 125%;
-}
-.CodeMirror .CodeMirror-code .cm-header-4 {
-    font-size: 110%;
-    line-height: 110%;
+.CodeMirror .CodeMirror-code .cm-header-1,
+.CodeMirror .CodeMirror-code .cm-header-2,
+.CodeMirror .CodeMirror-code .cm-header-3,
+.CodeMirror .CodeMirror-code .cm-header-4,
+.CodeMirror .CodeMirror-code .cm-header-5,
+.CodeMirror .CodeMirror-code .cm-header-6 {
+    font-size: 100%;
+    line-height: 100%;
 }
 .CodeMirror .CodeMirror-code .cm-comment {
     background: rgba(0,0,0,.05);
     border-radius: 2px;
 }
 .CodeMirror .CodeMirror-code .cm-link {
-    color: #7f8c8d;
+    color: $link-color;
 }
 .CodeMirror .CodeMirror-code .cm-url {
     color: #aab2b3;
@@ -659,11 +652,19 @@ span.CodeMirror-selectedtext {
 
 // Overrides
 // -------------------------------------------------------------------
+.cm-formatting-header-1 { margin-left: -21.6667px; }
+.cm-formatting-header-2 { margin-left: -32.5px; }
+.cm-formatting-header-3 { margin-left: -43.3333px; }
+.cm-formatting-header-4 { margin-left: -54.1667px; }
+.cm-formatting-header-5 { margin-left: -65px; }
+.cm-formatting-header-6 { margin-left: -75.8333px; }
+
 // The little markings, such as the asterisks around italics
 .cm-formatting,
-.mark,
-.link-url {
-    color: $lightest-gray;
+.cm-formatting-code-block,
+.cm-formatting-code {
+    color: $lightest-gray !important;
+    background: transparent !important;
 }
 
 // Make headings the same size as everything else

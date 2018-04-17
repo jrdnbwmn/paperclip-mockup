@@ -12,7 +12,6 @@ $lightest-gray:           lighten($gray-base, 36%) !default;
 $white:                   #fff !default;
 
 // Main Hues
-$blue:                    #4bb4f2 !default;
 $turquoise:               #00d1bc !default;
 $tan:                     #F4F4F3 !default;
 
@@ -21,7 +20,7 @@ $accent-color:            $turquoise !default;
 $selection-color:         rgba(0,209,188,.2) !default;
 
 // Color scheme
-$primary-color:           $blue !default;
+$primary-color:           $turquoise !default;
 $secondary-color:         $turquoise !default;
 $tertiary-color:          $tan !default;
 
@@ -91,7 +90,7 @@ $breakpoint--md:          50em !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
-$max-container-width:     705px !default;
+$max-container-width:     865px !default;
 
 
 // Spaces
