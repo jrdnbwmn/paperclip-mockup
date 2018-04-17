@@ -11,11 +11,14 @@ $light-gray:              lighten($gray-base, 18%) !default;
 $lightest-gray:           lighten($gray-base, 36%) !default;
 $white:                   #fff !default;
 
-// Hues
+// Main Hues
 $blue:                    #4bb4f2 !default;
-$green:                   #6fbb57 !default;
-$tan:                     #F3F2F2 !default;
-$selection-color:         rgba(75,180,242,.3) !default;
+$green:                   #79CC7E !default;
+$tan:                     #F1F1F0 !default;
+
+// Accent
+$accent-color:            $green !default;
+$selection-color:         rgba(121,204,126,.3) !default;
 
 // Color scheme
 $primary-color:           $blue !default;
@@ -34,7 +37,7 @@ $baseline:                .4rem !default;
 $sans-serif:              Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
 $serif:                   Georgia, Times, serif !default;
-$monospace:               "Source Code Pro", Hack, Menlo, Consolas,
+$monospace:               "Hack", Hack, Menlo, Consolas,
                           monospace !default;
 
 $font-family--base:       $monospace !default;
