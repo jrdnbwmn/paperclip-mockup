@@ -13,16 +13,16 @@ $white:                   #fff !default;
 
 // Main Hues
 $blue:                    #4bb4f2 !default;
-$green:                   #79CC7E !default;
-$tan:                     #F1F1F0 !default;
+$turquoise:               #00d1bc !default;
+$tan:                     #F4F4F3 !default;
 
 // Accent
-$accent-color:            $green !default;
-$selection-color:         rgba(121,204,126,.3) !default;
+$accent-color:            $turquoise !default;
+$selection-color:         rgba(0,209,188,.2) !default;
 
 // Color scheme
 $primary-color:           $blue !default;
-$secondary-color:         $green !default;
+$secondary-color:         $turquoise !default;
 $tertiary-color:          $tan !default;
 
 
@@ -91,7 +91,7 @@ $breakpoint--md:          50em !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
-$max-container-width:     670px !default;
+$max-container-width:     705px !default;
 
 
 // Spaces
