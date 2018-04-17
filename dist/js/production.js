@@ -1,0 +1,1 @@
+var inscrybmde=new InscrybMDE({placeholder:"Type here...",spellChecker:!1,autofocus:!0,hideIcons:["guide","fullscreen","side-by-side"],showIcons:["strikethrough","code"]});
