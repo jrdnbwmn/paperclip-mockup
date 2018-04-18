@@ -88,9 +88,9 @@ a.btn {
 .btn--outline,
 .btn--outline:visited {
     background-color: transparent;
-    border-color: $border-color;
-    border-width: $border-width;
-    color: $text-color;
+    border-color: $primary-color;
+    border-width: $primary-color;
+    color: $primary-color;
 
     &:hover,
     &:focus {

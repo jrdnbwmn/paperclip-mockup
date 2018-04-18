@@ -123,3 +123,12 @@
 :-ms-input-placeholder {
     color: $light-gray;
 }
+
+
+// Skins
+// -------------------------------------------------------------------
+.form-control--tan {
+    background-color: $tan;
+    border-radius: 0;
+    border: none;
+}

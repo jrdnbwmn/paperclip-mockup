@@ -21,7 +21,7 @@ $selection-color:         rgba(0,209,188,.2) !default;
 
 // Color scheme
 $primary-color:           $turquoise !default;
-$secondary-color:         $turquoise !default;
+$secondary-color:         $tan !default;
 $tertiary-color:          $tan !default;
 
 
@@ -41,7 +41,7 @@ $monospace:               "Hack", Hack, Menlo, Consolas,
 
 $font-family--base:       $monospace !default;
 $font-family--heading:    $monospace !default;
-$font-family--reading:    $serif !default;
+$font-family--reading:    $monospace !default;
 $font-family--ui:         $sans-serif !default;
 $font-family--code:       $monospace !default;
 
@@ -126,7 +126,7 @@ $table-padding:           $baseline*2 $baseline*2 !default;
 
 // Buttons
 // -------------------------------------------------------------------
-$button-padding:          .45rem 1rem .35rem !default;
+$button-padding:          .35rem 0.9rem .25rem !default;
 $button-padding--sm:      .1rem .6rem 0 !default;
 
 
@@ -139,7 +139,7 @@ $form-padding:            .45rem .8rem .35rem !default;
 // -------------------------------------------------------------------
 $border-color:            $light-gray !default;
 $border-style:            solid !default;
-$border-radius:           3px !default;
+$border-radius:           0px !default;
 $border-width:            1px !default;
 
 
