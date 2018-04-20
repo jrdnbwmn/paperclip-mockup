@@ -1,4 +1,5 @@
 // InscrybMDE
+// -------------------------------------------------------------------
 var inscrybmde = new InscrybMDE({
     spellChecker: false,
     autofocus: true,
@@ -9,9 +10,11 @@ var inscrybmde = new InscrybMDE({
 });
 
 // Feather
+// -------------------------------------------------------------------
 feather.replace()
 
 // Popups
+// -------------------------------------------------------------------
 // Clicking a toggle opens its sibling dropdown
 $('.js-popup-toggle').click( function(event){
     event.stopPropagation();
@@ -22,11 +25,27 @@ $('.js-popup-toggle').click( function(event){
     }
 });
 
-// Clicking anywhere closes all dropdowns
+// Clicking anywhere closes all popups
 $(document).click(function(event) {
     if(!$(event.target).closest('.js-popup').length) {
         if($('.js-popup').is(":visible")) {
             $('.js-popup').hide()
         }
     }
+});
+
+// Slidedown
+// -------------------------------------------------------------------
+$( ".js-slidedown-toggle" ).click(function() {
+    $( ".js-slidedown" ).slideToggle( 300, function() {
+    });
+});
+
+// Modal
+// -------------------------------------------------------------------
+$( ".js-modal-toggle" ).click(function() {
+    $( ".js-modal" ).show();
+});
+$( ".js-modal-close" ).click(function() {
+    $( ".js-modal" ).hide();
 });
