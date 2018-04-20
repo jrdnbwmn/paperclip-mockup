@@ -16,6 +16,7 @@
 
         <!-- Web fonts --> 
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet"> 
 
         <!-- InscrybMDE -->
         <script src="https://cdn.jsdelivr.net/npm/inscrybmde@1.11.3/dist/inscrybmde.min.js"></script>
@@ -34,38 +35,116 @@
     <body>
 
 
-<div class="container pt3 pb4">
+<div class="fixed top--0 bottom--0 left--0" style="min-width:280px;background-color:#ececea">
+    <div class="tag-container pt2">
 
-    <!--<div class="pt1 pb1 show-on-hover fixed bottom--0 right--0 left--0">
-        <div class="container">
-            <div style="padding: 0 80px;">
-                <input type="text" class="form-control form-control--tan" placeholder="Add a tag..." style="width: 70%;">
-            </div>
-        </div>
-    </div>-->
+        <h3><a href="" class="link link--text monospace pl2 pr2 block mb2"><img src="/img/paperclip_logo.svg" alt="Paperclip"></a></h3>
 
-    <div class="fixed top--0 left--0 p1 text--lightest-gray">
-        <div class="mb1">
-            <i data-feather="arrow-left" style="margin-left:-3px"></i>
-        </div>
-        <div class="mb1">
-            <i data-feather="info" style="margin-left:-3px"></i>
+        <!-- Tags -->
+        <ul class="no-bullets">
+            <li>
+                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
+                    <span class="float--left">All</span>
+                    <span class="float--right ml1">22</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
+                    <span class="float--left">blog</span>
+                    <span class="float--right ml1">7</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
+                    <span class="float--left">business</span>
+                    <span class="float--right ml1">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
+                    <span class="float--left">essays</span>
+                    <span class="float--right ml1">2</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
+                    <span class="float--left">journal</span>
+                    <span class="float--right ml1">10</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
+                    <span class="float--left">Archived</span>
+                    <span class="float--right ml1"></span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <!-- Account -->
+    <div class="fixed bottom--0 left--0">
+        <div class="link link--text p2 js-popup-toggle"><i data-feather="settings"></i></div>
+        <!-- Account popup -->
+        <div class="settings-popup absolute border--full rounded bg--white js-popup">
+            <a href="settings.html" class="link link--text block mb0 pl1 pr1 pts pbs border--bottom">Account</a>
+            <a href="" class="link link--text block mb0 pl1 pr1 pts pbs">Log Out</a>
         </div>
     </div>
 
-    <!--<div class="editor-padding cm-formatting-header-1" style="margin-bottom: 1rem;">
-        <span class="bold"># </span>
-        <input class="form-control form-control--tan font--reading bold inline-block" type="text" placeholder="Title" style="width:95%; padding:0;">
-    </div>-->
+</div>
 
-    <textarea class="form-control textarea--md mb3" id="inscrybmde"></textarea>
-
-    <!--<p>We were fifteen by then, already into our last year at the school. We'd been in the pavilion getting ready for a game of <span class="mark">**</span><span class="bold">rounders</span><span class="mark">**</span>. The boys were going <span class="mark">*</span><span class="italic">through</span><span class="mark">*</span> a phase of "enjoying" rounders in order to flirt with us, so there were over thirty of us that afternoon. The <span class="mark">~</span><span class="underline">downpour</span><span class="mark">~</span> had started while we were <span class="mark">~~</span><span class="strikethrough">changing</span><span class="mark">~~</span>, and we found ourselves gathering on the veranda – which was sheltered by the <span class="mark">[</span>pavilion<span class="mark">]</span><span class="l"><span class="link-url">(jrdnbwmn.com)</span></span> roof – while we waited for it to <span class="mark">`</span>stop<span class="mark">`</span>.</p>-->
-
+<!-- Posts -->
+<div class="p2" style="margin-left:280px">
+    <div class="pb2">
+        <div class="mb2">
+            <a href="document.html" class="btn btn--default"><i data-feather="plus" class="vertical--text-top"></i><span> New</span></a>
+        </div>
+        <div class="border--top">
+            <div class="pt2 pb2 border--bottom">
+                <div class="grid-row grid-row--center">
+                    <div class="grid-column">
+                        <h4 class="mb0"><a href="document.html" class="link link--text">Arif Tukiman</a></h4> 
+                    </div>
+                    <div class="grid-column span-5 align--right">
+                        <span class="mr2">18 Apr</span>
+                        <a href="document.html" class="link mr2"><i data-feather="edit" class="vertical--text-top"></i></a>
+                        <a href="" class="link"><i data-feather="archive" class="vertical--text-top"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pt2 pb2 border--bottom">
+                <div class="grid-row grid-row--center">
+                    <div class="grid-column">
+                        <h4 class="mb0"><a href="document.html" class="link link--text">William Candillon</a></h4> 
+                    </div>
+                    <div class="grid-column span-5 align--right">
+                        <span class="mr2">18 Apr</span>
+                        <a href="document.html" class="link mr2"><i data-feather="edit" class="vertical--text-top"></i></a>
+                        <a href="" class="link"><i data-feather="archive" class="vertical--text-top"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pt2 pb2 border--bottom">
+                <div class="grid-row grid-row--center">
+                    <div class="grid-column">
+                        <h4 class="mb0"><a href="document.html" class="link link--text">Do aesthetics matter?</a></h4> 
+                    </div>
+                    <div class="grid-column span-5 align--right">
+                        <span class="mr2">18 Apr</span>
+                        <a href="document.html" class="link mr2"><i data-feather="edit" class="vertical--text-top"></i></a>
+                        <a href="" class="link"><i data-feather="archive" class="vertical--text-top"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
         <!-- The compiled JavaScript file -->
         <script src="js/production.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

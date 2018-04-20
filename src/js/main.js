@@ -11,4 +11,22 @@ var inscrybmde = new InscrybMDE({
 // Feather
 feather.replace()
 
-// Input caret
+// Popups
+// Clicking a toggle opens its sibling dropdown
+$('.js-popup-toggle').click( function(event){
+    event.stopPropagation();
+    if ($('.js-popup').is(":visible")) {
+        $('.js-popup').hide();
+    } else {
+        $(this).siblings('.js-popup').show();
+    }
+});
+
+// Clicking anywhere closes all dropdowns
+$(document).click(function(event) {
+    if(!$(event.target).closest('.js-popup').length) {
+        if($('.js-popup').is(":visible")) {
+            $('.js-popup').hide()
+        }
+    }
+});

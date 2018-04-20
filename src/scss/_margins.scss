@@ -6,6 +6,12 @@
 .mb0 { margin-bottom: 0 }
 .ml0 { margin-left: 0 }
 
+.ms  { margin: $space-s }
+.mts { margin-top: $space-s }
+.mrs { margin-right: $space-s }
+.mbs { margin-bottom: $space-s }
+.mls { margin-left: $space-s }
+
 .m1  { margin: $space-1 }
 .mt1 { margin-top: $space-1 }
 .mr1 { margin-right: $space-1 }

@@ -8,8 +8,8 @@
 .link:link,
 .link:visited {
     color: $link-color;
-    text-decoration: none;
     transition: color $fade;
+    text-decoration: none;
 }
 
 .default-links a:hover,
@@ -17,7 +17,6 @@
 .link:hover,
 .link:focus {
     color: $link-hover-color;
-    text-decoration: underline;
 }
 
 .default-links a:active,
@@ -31,23 +30,70 @@
 
 // Skins
 // -------------------------------------------------------------------
+// Text
 .link--text,
 .link--text:link,
 .link--text:visited {
     color: $text-color;
-    text-decoration: none;
-    transition: color $fade;
 }
 
 .link--text:hover,
 .link--text:focus {
     color: $link-color;
-    text-decoration: underline;
 }
 
 .link--text:active {
-    background-image: none;
     color: $link-hover-color;
-    outline: 0;
-    transition: color $fade;
+}
+
+// White
+.link--white,
+.link--white:link,
+.link--white:visited {
+    color: $white;
+}
+
+.link--white:hover,
+.link--white:focus {
+    color: $lightest-gray;
+}
+
+.link--white:active {
+    color: $light-gray;
+}
+
+// Lightest gray
+.link--lightest-gray,
+.link--lightest-gray:link,
+.link--lightest-gray:visited {
+    color: $lightest-gray;
+}
+
+.link--lightest-gray:hover,
+.link--lightest-gray:focus {
+    color: $link-color;
+}
+
+.link--lightest-gray:active {
+    color: $link-hover-color;
+}
+
+// Highlight
+.link--highlight,
+.link--highlight:link,
+.link--highlight:visited {
+    color: $text-color;
+    transition: color 0s;
+}
+
+.link--highlight:hover,
+.link--highlight:focus {
+    color: $white;
+    background-color: $primary-color;
+}
+
+.link--highlight:active {
+    color: $shade;
+    background-color: $primary-color;
+    transition: color 0s;
 }

@@ -6,6 +6,12 @@
 .pb0 { padding-bottom: 0 }
 .pl0 { padding-left: 0 }
 
+.ps  { padding: $space-s }
+.pts { padding-top: $space-s }
+.prs { padding-right: $space-s }
+.pbs { padding-bottom: $space-s }
+.pls { padding-left: $space-s }
+
 .p1  { padding: $space-1 }
 .pt1 { padding-top: $space-1 }
 .pr1 { padding-right: $space-1 }
