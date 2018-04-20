@@ -25,42 +25,6 @@
     max-width: 100%; // Force IE8 to wrap long content
 }
 
-.legend {
-    display: block;
-    white-space: normal;
-    width: 100%;
-}
-
-
-// Form layouts
-// -------------------------------------------------------------------
-.form--stacked {
-    .input,
-    .select,
-    .radio,
-    .checkbox,
-    .textarea,
-    .label {
-        display: block;
-        width: 100%;
-    }
-}
-
-.form--inline {
-    .form-control {
-        display: inline-block;
-        vertical-align: middle;
-        width: auto; // Prevent labels from stacking above inputs
-                     // in `.form-group`
-    }
-
-    .radio,
-    .checkbox {
-        display: inline-block;
-        vertical-align: middle;
-    }
-}
-
 
 // Select
 // ----------------------------------------------------------------
@@ -122,15 +86,4 @@
 }
 :-ms-input-placeholder {
     color: $light-gray;
-}
-
-
-// Skins
-// -------------------------------------------------------------------
-.form-control--tan {
-    background-color: $tan;
-    border-radius: 0;
-    border: none;
-    line-height: $line-height--base;
-    caret-color: $text-color;
 }

@@ -15,6 +15,7 @@ $white:                   #fff !default;
 // Main Hues
 $turquoise:               #0bc4b1 !default;
 $tan:                     #F4F4F3 !default;
+$dark-tan:                #ececea !default;
 
 // Accent
 $accent-color:            $turquoise !default;
@@ -37,7 +38,7 @@ $baseline:                .4rem !default;
 $sans-serif:              "Fira Sans", -apple-system, Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
 $serif:                   Georgia, Times, serif !default;
-$monospace:               "Hack", Hack, Menlo, Consolas,
+$monospace:               "Hack", Menlo, Consolas,
                           monospace !default;
 
 $font-family--base:       $sans-serif !default;
@@ -86,14 +87,15 @@ $line-height--heading:    1 !default;
 // -------------------------------------------------------------------
 // Breakpoints
 // Mobile Safari has problems with rems being used in media queries
-$breakpoint--sm:          40em !default;
-$breakpoint--md:          50em !default;
+$breakpoint--sm:          795px !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
 $container-width:         865px !default;
 $container--sm-width:     600px !default;
-$container--lg-width:     1000px !default;
+
+// Tags index width
+$tags-index-width:        280px !default;
 
 
 // Spaces
@@ -116,18 +118,6 @@ $link-hover-color:        darken($primary-color, 10%) !default;
 $active-link-color:       darken($primary-color, 25%) !default;
 
 
-// Code
-// -------------------------------------------------------------------
-$code-color:              $dark-gray !default;
-$code-bg-color:           $lightest-gray !default;
-$code-padding:            $baseline*2 $baseline*2 !default;
-
-
-// Tables
-// -------------------------------------------------------------------
-$table-padding:           $baseline*2 $baseline*2 !default;
-
-
 // Buttons
 // -------------------------------------------------------------------
 $button-padding:          .35rem 0.9rem .25rem !default;
@@ -145,6 +135,8 @@ $border-color:            $shade !default;
 $border-style:            solid !default;
 $border-radius:           1px !default;
 $border-width:            1px !default;
+
+$full-shadow:             0 0 20px rgba(0,0,0,.2) !default;
 
 
 // Animations

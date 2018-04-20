@@ -11,124 +11,152 @@
         <title>Paperclip</title>
         <meta name="description" content="Paperclip is a beautiful markdown writing app.">
 
+        <!-- Prefetching -->
+        <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+        <link rel="dns-prefetch" href="https://code.jquery.com">
+
         <!-- The compiled CSS file -->
         <link rel="stylesheet" href="css/production.css">
-
-        <!-- Web fonts --> 
+        <!-- Hack font --> 
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css">
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet"> 
+        <!-- Fira Sans font --> 
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
 
         <!-- InscrybMDE -->
         <script src="https://cdn.jsdelivr.net/npm/inscrybmde@1.11.3/dist/inscrybmde.min.js"></script>
 
-        <!-- Feather icons -->
-        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
         <!-- favicon.ico and apple-touch-icon. A good tool is http://iconogen.com/. Place these in the root directory. -->
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+        <meta name="msapplication-square70x70logo" content="/smalltile.png">
+        <meta name="msapplication-square150x150logo" content="/mediumtile.png">
+        <meta name="msapplication-square310x310logo" content="/largetile.png">
 
     </head>
 
     <body>
 
 
-<div class="fixed top--0 bottom--0 left--0" style="min-width:280px;background-color:#ececea">
+<!-- Desktop tags index -->
+<nav class="tags-index--desktop fixed top--0 bottom--0 left--0 bg--dark-tan hide-on-mobile">
     <div class="tag-container pt2">
 
-        <h3><a href="" class="link link--text monospace pl2 pr2 block mb2"><img src="/img/paperclip_logo.svg" alt="Paperclip"></a></h3>
+        <h1 class="mb0"><a href="/" class="link link--text monospace pl2 pr2 block mb2"><img class="logo" src="/img/paperclip_logo.svg" alt="Paperclip"></a></h1>
 
         <!-- Tags -->
         <ul class="no-bullets">
             <li>
-                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
-                    <span class="float--left">All</span>
-                    <span class="float--right ml1">22</span>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">
+                    <div class="grid-row">
+                        <span class="grid-column ellipsis pr0">All</span>
+                        <span class="grid-column span-3 align--right pl0">22</span>
+                    </div>
                 </a>
             </li>
             <li>
-                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
-                    <span class="float--left">blog</span>
-                    <span class="float--right ml1">7</span>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">
+                    <div class="grid-row">
+                        <span class="grid-column ellipsis pr0">blog</span>
+                        <span class="grid-column span-3 align--right pl0">7</span>
+                    </div>
                 </a>
             </li>
             <li>
-                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
-                    <span class="float--left">business</span>
-                    <span class="float--right ml1">3</span>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">
+                    <div class="grid-row">
+                        <span class="grid-column ellipsis pr0">business</span>
+                        <span class="grid-column span-3 align--right pl0">3</span>
+                    </div>
                 </a>
             </li>
             <li>
-                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
-                    <span class="float--left">essays</span>
-                    <span class="float--right ml1">2</span>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">
+                    <div class="grid-row">
+                        <span class="grid-column ellipsis pr0">essays</span>
+                        <span class="grid-column span-3 align--right pl0">2</span>
+                    </div>
                 </a>
             </li>
             <li>
-                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
-                    <span class="float--left">journal</span>
-                    <span class="float--right ml1">10</span>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">
+                    <div class="grid-row">
+                        <span class="grid-column ellipsis pr0">journal</span>
+                        <span class="grid-column span-3 align--right pl0">10</span>
+                    </div>
                 </a>
             </li>
             <li>
-                <a href="" class="link link--highlight clearfix pl2 pr2 pts pbs block">
-                    <span class="float--left">Archived</span>
-                    <span class="float--right ml1"></span>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">
+                    <div class="grid-row">
+                        <span class="grid-column">Archived</span>
+                        <span class="grid-column span-3 align--right"></span>
+                    </div>
                 </a>
             </li>
         </ul>
 
     </div>
 
-    <!-- Account -->
+    <!-- Settings -->
     <div class="fixed bottom--0 left--0">
         <div class="link link--text p2 js-popup-toggle"><i data-feather="settings"></i></div>
-        <!-- Account popup -->
-        <div class="settings-popup absolute border--full rounded bg--white js-popup">
-            <a href="settings.html" class="link link--text block mb0 pl1 pr1 pts pbs border--bottom">Account</a>
-            <a href="" class="link link--text block mb0 pl1 pr1 pts pbs">Log Out</a>
+        <!-- Popup -->
+        <div class="settings-popup absolute border--full rounded full-shadow bg--white js-popup">
+            <a href="settings.html" class="link link--highlight block mb0 pl1 pr1 pts pbs border--bottom"><i data-feather="user" class="vertical--text-top"></i>&nbsp;&nbsp;Account</a>
+            <a href="" class="link link--highlight block mb0 pl1 pr1 pts pbs"><i data-feather="log-out" class="vertical--text-top"></i>&nbsp;&nbsp;Log Out</a>
         </div>
     </div>
+    
+</nav>
 
-</div>
-
-<!-- Posts -->
-<div class="p2" style="margin-left:280px">
+<!-- Documents index -->
+<div class="documents-index p2">
     <div class="pb2">
         <div class="mb2">
             <a href="document.html" class="btn btn--default"><i data-feather="plus" class="vertical--text-top relative" style="bottom:1px"></i><span> New</span></a>
         </div>
         <div class="border--top">
-            <div class="pt2 pb2 border--bottom">
+            <div class="border--bottom">
                 <div class="grid-row grid-row--center">
-                    <div class="grid-column">
-                        <h4 class="mb0"><a href="document.html" class="link link--text">Arif Tukiman</a></h4> 
+                    <div class="grid-column ellipsis">
+                        <h4 class="mb0 ellipsis"><a href="document.html" class="link link--text block pt2 pb2">Arif Tukiman</a></h4> 
                     </div>
-                    <div class="grid-column span-5 align--right">
+                    <div class="grid-column span-3 align--right">
                         <a href="document.html" class="link mr2"><i data-feather="edit" class="vertical--text-top"></i></a>
                         <a href="" class="link"><i data-feather="archive" class="vertical--text-top"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="pt2 pb2 border--bottom">
+            <div class="border--bottom">
                 <div class="grid-row grid-row--center">
-                    <div class="grid-column">
-                        <h4 class="mb0"><a href="document.html" class="link link--text">William Candillon</a></h4> 
+                    <div class="grid-column ellipsis">
+                        <h4 class="mb0 ellipsis"><a href="document.html" class="link link--text block pt2 pb2">William Candillon</a></h4> 
                     </div>
-                    <div class="grid-column span-5 align--right">
+                    <div class="grid-column span-3 align--right">
                         <a href="document.html" class="link mr2"><i data-feather="edit" class="vertical--text-top"></i></a>
                         <a href="" class="link"><i data-feather="archive" class="vertical--text-top"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="pt2 pb2 border--bottom">
+            <div class="border--bottom">
                 <div class="grid-row grid-row--center">
-                    <div class="grid-column">
-                        <h4 class="mb0"><a href="document.html" class="link link--text">Do aesthetics matter?</a></h4> 
+                    <div class="grid-column ellipsis">
+                        <h4 class="mb0 ellipsis"><a href="document.html" class="link link--text block pt2 pb2">Do aesthetics matter?</a></h4> 
                     </div>
-                    <div class="grid-column span-5 align--right">
+                    <div class="grid-column span-3 align--right">
                         <a href="document.html" class="link mr2"><i data-feather="edit" class="vertical--text-top"></i></a>
                         <a href="" class="link"><i data-feather="archive" class="vertical--text-top"></i></a>
                     </div>
@@ -138,17 +166,53 @@
     </div>
 </div>
 
+<!-- Mobile tags index -->
+<nav class="tags-index--mobile bg--dark-tan pts pbs show-on-mobile">
+    <div class="container">
+        <div class="clearfix">
+            <h1 class="mb0 float--left"><a href="/" class="link link--text monospace"><img class="logo--mobile relative" src="/img/paperclip_logo.svg" alt="Paperclip"></a></h1>
+            <div class="mobile-menu-icon float--right pl3 relative js-slidedown-toggle">
+                <span class="vertical--top">All</span> <i data-feather="menu" class="ml1"></i>
+            </div>
+        </div>
+    </div>
+    <div class="tags-index__mobile-nav js-slidedown">
+        <ul class="no-bullets border--top pt1 mts">
+            <li>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">All</a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">blog</a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">business</a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">essays</a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">journal</a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight pl2 pr2 pts pbs block">Archived</a>
+            </li>
+        <ul class="no-bullets border--top pt1 mt1">
+            <li>
+                <a href="settings.html" class="link link--highlight block pl2 pr2 pts pbs">Account</a>
+            </li>
+            <li>
+                <a href="" class="link link--highlight block pl2 pr2 pts pbs">Log Out</a>
+            </li>
+        </ul>
+    </ul></div>
+</nav>
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <!-- Feather icons -->
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
         <!-- The compiled JavaScript file -->
         <script src="js/production.js"></script>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer="defer"></script>
 
     </body>
 </html>

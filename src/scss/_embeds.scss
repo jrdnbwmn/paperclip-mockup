@@ -4,3 +4,8 @@
 img, canvas, iframe, video, svg { max-width: 100%; }
 
 .logo { max-width: 162px; }
+
+.logo--mobile {
+    height: 20px;
+    bottom: 4px;
+}

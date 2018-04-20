@@ -9,9 +9,11 @@ var inscrybmde = new InscrybMDE({
     element: document.getElementById("inscrybmde"),
 });
 
+
 // Feather
 // -------------------------------------------------------------------
 feather.replace()
+
 
 // Popups
 // -------------------------------------------------------------------
@@ -25,7 +27,7 @@ $('.js-popup-toggle').click( function(event){
     }
 });
 
-// Clicking anywhere closes all popups
+// Close popup by clicking outside it
 $(document).click(function(event) {
     if(!$(event.target).closest('.js-popup').length) {
         if($('.js-popup').is(":visible")) {
@@ -34,12 +36,14 @@ $(document).click(function(event) {
     }
 });
 
+
 // Slidedown
 // -------------------------------------------------------------------
 $( ".js-slidedown-toggle" ).click(function() {
     $( ".js-slidedown" ).slideToggle( 300, function() {
     });
 });
+
 
 // Modal
 // -------------------------------------------------------------------

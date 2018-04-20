@@ -103,24 +103,3 @@ a.btn {
         border-color: $light-gray;
     }
 }
-
-// Dark background button
-.btn--dark-bg {
-    background-color: transparent;
-    border-color: $white;
-    border-width: $border-width;
-    color: $white;
-
-    &:hover,
-    &:focus {
-        background-color: $white;
-        border-color: $white;
-        color: $text-color;
-    }
-
-    &:active {
-        background-color: $lightest-gray;
-        border-color: $lightest-gray;
-        color: $text-color;
-    }
-}

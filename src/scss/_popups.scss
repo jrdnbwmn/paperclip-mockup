@@ -1,20 +1,15 @@
-.js-popup-toggle {
-    cursor: pointer;
-}
+// Popups
+// -------------------------------------------------------------------
+.js-popup-toggle { cursor: pointer; }
 
 .js-popup {
     display: none;
     z-index: 10;
 }
 
+// Settings popup
 .settings-popup {
     bottom: 4.2rem;
-    width: 10rem;
+    width: 11rem;
     left: $space-2;
-}
-
-.title-popup {
-    width: 21rem;
-    top: .8rem;
-    left: calc(100%);
 }

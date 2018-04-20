@@ -11,7 +11,11 @@
     padding: 4px 0;
 }
 .CodeMirror pre {
-    padding: 0 80px;
+    padding: 0 $space-1;
+
+    @media screen and (min-width: $breakpoint--sm) {
+        padding: 0 80px;
+    }
 }
 .CodeMirror-gutter-filler,.CodeMirror-scrollbar-filler {
     background-color: $tan;
@@ -393,21 +397,21 @@ span.CodeMirror-selectedtext {
 .CodeMirror-scroll {
     cursor: text;
 }
-.CodeMirror-fullscreen {
-    background: $tan;
-    position: fixed!important;
-    top: 50px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: auto;
-    z-index: 9;
-    border-right: none!important;
-    border-bottom-right-radius: 0!important;
-}
-.CodeMirror-sided {
-    width: 50%!important;
-}
+// .CodeMirror-fullscreen {
+//     background: $tan;
+//     position: fixed!important;
+//     top: 50px;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     height: auto;
+//     z-index: 9;
+//     border-right: none!important;
+//     border-bottom-right-radius: 0!important;
+// }
+// .CodeMirror-sided {
+//     width: 50%!important;
+// }
 .CodeMirror .CodeMirror-code .cm-tag {
     color: #63a35c;
 }
@@ -450,7 +454,7 @@ span.CodeMirror-selectedtext {
     color: $link-color;
 }
 .CodeMirror .CodeMirror-code .cm-url {
-    color: #aab2b3;
+    color: $lightest-gray;
 }
 .CodeMirror .CodeMirror-code .cm-strikethrough {
     text-decoration: line-through;
@@ -698,7 +702,3 @@ span.CodeMirror-selectedtext {
     color: $lightest-gray !important;
     background: transparent !important;
 }
-
-
-// Input Caret
-// -------------------------------------------------------------------

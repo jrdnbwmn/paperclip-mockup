@@ -1,3 +1,5 @@
+// Modals
+// -------------------------------------------------------------------
 .modal-background {
     position: fixed;
     top: 0;
@@ -28,3 +30,5 @@
         left: auto;
     }
 }
+
+.js-modal-toggle { cursor: pointer; }
